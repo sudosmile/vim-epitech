@@ -13,11 +13,11 @@ setlocal shiftwidth=4
 setlocal softtabstop=0
 
 " show colorbar at column 80
-setlocal colorcolumn=80
+"setlocal colorcolumn=80
 
 " show extra characters
-setlocal list
-setlocal listchars=eol:¬,tab:>-,trail:!
+"setlocal list
+"setlocal listchars=eol:¬,tab:>-,trail:!
 
 " insert real tabs, no spaces
 setlocal noexpandtab

@@ -1,12 +1,12 @@
-# vim-epitech
+# vim-epitech Sudosmile fork
 vim plugin for epitech students
+
+## Fork diff :
+I chose to remove everything that wasn't the header, because most of the other
+features of this plugin are already available with simple vimrc options
 
 ## features
 * adds epitech header following the new header style (promotion 2023 and later)
-* turns on syntax highlighting
-* sets the correct indentation (4 spaces)
-* shows a colored bar at 80 columns
-* displays extra characters (end of line, tabulations, trailing spaces)
 
 ## install
 use your favorite plugin manager. if you don't use one, i recommand
@@ -19,12 +19,9 @@ for your file (or some text will be put instead).
 the epitech header will be then put at the top of your file.
 
 ## credits
+original plugin written by [phil](https://philippeloctaux.com),
 plugin based off [Le-Bit/vim-epitech](https://github.com/Le-Bit/vim-epitech),
 as well off [epitech's emacs config](https://github.com/Epitech/epitech-emacs).
-
-## social
-written by [phil](https://philippeloctaux.com), and hopefully made better
-by you.
 
 licensed under the **mit license** (see [license.txt](license.txt)).
 
