@@ -19,8 +19,12 @@ setlocal softtabstop=0
 "setlocal colorcolumn=80
 
 " show extra characters
-setlocal list
-setlocal listchars=eol:$,tab:>-,trail:!
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /s+$/
+match ExtraWhitespace /s+%#@<!$/
+match ExtraWhitespace /s+$/
+"setlocal list
+"setlocal listchars=eol:$,tab:>-,trail:!
 
 " insert spaces, not tabs
 setlocal expandtab
