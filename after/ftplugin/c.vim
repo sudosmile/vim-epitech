@@ -19,7 +19,7 @@ setlocal softtabstop=0
 "setlocal colorcolumn=80
 
 " show when line longer than 80 cols
-2mat ErrorMsg '\%>80v.\+'
+" 2mat ErrorMsg '\%>80v.\+'
 
 " show extra characters
 highlight ExtraWhitespace ctermbg=red guibg=red
